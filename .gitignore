@@ -1,0 +1,67 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Environment / secrets
+# =========================
+
+.env
+
+# =========================
+# Testing / coverage
+# =========================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Type checkers / linters
+# =========================
+
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Application data
+# =========================
+
+*.log
+
+# =========================
+# Generated reports
+# =========================
+
+reports/*.xlsx
+reports/*.csv
+reports/*.pdf
